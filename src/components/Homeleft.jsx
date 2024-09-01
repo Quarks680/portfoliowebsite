@@ -16,7 +16,7 @@ function Homeleft({ left }) {
           <div className="flex items-center">
             <img
               className="h-24 w-24 rounded-full "
-              src="../public/images/pfp.jpg"
+              src="/public/images/pfp.jpg"
               alt=""
             />
           </div>
