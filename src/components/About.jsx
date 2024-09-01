@@ -50,7 +50,7 @@ function About() {
           {/* <div className=" relative w-full"> */}
           <img
             className="top-0 left-0 sm:mb-20 mb-6 sticky mt-12 rounded-xl "
-            src="/public/images/anurag[1].png"
+            src="/images/anurag[1].png"
             alt=""
             ref={imageRef}
           />

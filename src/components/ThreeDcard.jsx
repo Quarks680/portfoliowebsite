@@ -7,10 +7,10 @@ import { CardBody, CardContainer, CardItem } from "../components";
 
 export function ThreeDcard() {
   const data = [
-    { image: "/public/Icons/javascript.svg", name: "Javascript" },
-    { image: "/public/Icons/react.svg", name: "React" },
-    { image: "/public/Icons/redux.svg", name: "Redux" },
-    { image: "/public/Icons/c++.svg", name: "C++" },
+    { image: "/Icons/javascript.svg", name: "Javascript" },
+    { image: "/Icons/react.svg", name: "React" },
+    { image: "/Icons/redux.svg", name: "Redux" },
+    { image: "/Icons/c++.svg", name: "C++" },
   ];
   return (
     <div className="flex items-center justify-center gap-8 mt-20">
