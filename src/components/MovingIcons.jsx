@@ -3,7 +3,7 @@ import React from 'react'
 import Marquee from 'react-fast-marquee'
 
 function MovingIcons() {
-    const data = [{image: "/public/Icons/css3.svg"},
+    const data = [{image: "/Icons/css3.svg"},
         {image: "/Icons/git.svg"},
         {image: "/Icons/npm.svg"},
         {image: "/Icons/vscode.svg"},

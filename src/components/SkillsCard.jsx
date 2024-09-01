@@ -11,7 +11,7 @@ function SkillsCard() {
     const card = cardRef.current;
     gsap.fromTo(card, { x: '150%'}, {x: '-150%', duration: 500, scrollTrigger: {
       trigger: card,
-      start: "top 55%",
+      start: "top 75%",
       //end: "top 20%",
       end: () => `+=${cardRef.current.offsetWidth} bottom`,
       scrub: true,
