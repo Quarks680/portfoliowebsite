@@ -70,7 +70,7 @@ function Aboutpage() {
           <div className="w-3/12 h-96 mb-36">
             <img
               className="relative z-30 mt-9 "
-              src="../public/images/pfp3black.png"
+              src="/images/pfp3black.png"
               alt=""
             />
           </div>
