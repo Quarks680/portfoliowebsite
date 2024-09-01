@@ -35,7 +35,7 @@ function CardsProject({  }) {
 
   return (
     <div className={` group max-w-8xl  flex items-center relative overflow-hidden  bg-blue-600 rounded-xl sm:flex-col sm:items-center  `} >
-        <video className='rounded-xl  ' ref={videoRef}  src={`../public/video/refokus.mp4`}></video>
+        <video className='rounded-xl  ' ref={videoRef}  src={`/public/video/refokus.mp4`}></video>
         <div className='hidden z-50 w-full h-full absolute group-hover:block'>
           <Hover/>
         </div>
