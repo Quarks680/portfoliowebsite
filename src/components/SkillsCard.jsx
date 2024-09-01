@@ -9,9 +9,9 @@ function SkillsCard() {
   const cardRef  = useRef(null);
   useEffect(()=> {
     const card = cardRef.current;
-    gsap.fromTo(card, { x: '150%'}, {x: '-150%', duration: 500, scrollTrigger: {
+    gsap.fromTo(card, { x: '200%'}, {x: '-200%', duration: 500, scrollTrigger: {
       trigger: card,
-      start: "top 75%",
+      start: "top 55%",
       //end: "top 20%",
       end: () => `+=${cardRef.current.offsetWidth} bottom`,
       scrub: true,
