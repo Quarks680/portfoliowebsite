@@ -103,7 +103,7 @@ const ParticleRing = () => {
                   className="flex items-center justify-center absolute left-1/3 top-1/3 "
                 >
                   <img
-                    src="public/Video/dilse.gif"
+                    src="/Video/dilse.gif"
                     className="w-20 h-20 rounded-full"
                     alt=""
                   />

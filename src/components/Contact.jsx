@@ -9,7 +9,7 @@ function Contact() {
       
         <img
           className="ml-8 scale-110 relative brightness-70 drop-shadow-2xl contrast-100 saturate-100 "
-          src="/public/images/femojiboy.png"
+          src="/images/femojiboy.png"
           alt=""
         />
         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black to-transparent blur-3xl" ></div>

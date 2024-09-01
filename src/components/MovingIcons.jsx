@@ -4,12 +4,12 @@ import Marquee from 'react-fast-marquee'
 
 function MovingIcons() {
     const data = [{image: "/public/Icons/css3.svg"},
-        {image: "/public/Icons/git.svg"},
-        {image: "/public/Icons/npm.svg"},
-        {image: "/public/Icons/vscode.svg"},
-        {image: "/public/Icons/python.svg"},
-        {image: "/public/Icons/github.svg"},
-        {image: "/public/Icons/Matlab_Logo.png"},
+        {image: "/Icons/git.svg"},
+        {image: "/Icons/npm.svg"},
+        {image: "/Icons/vscode.svg"},
+        {image: "/Icons/python.svg"},
+        {image: "/Icons/github.svg"},
+        {image: "/Icons/Matlab_Logo.png"},
     ]
   return (
     <Marquee direction='left' loop={0} gradient="true" gradientColor='#121212' className='mt-16 mb-14'>

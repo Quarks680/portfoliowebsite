@@ -19,9 +19,9 @@ function SkillsCard() {
     }})
   },[])
 
-  const tata = [{image: "/public/images/web-development.webp", heading: "Web-Dev", para: "Enhancing website performance with cutting-edge optimization techniques."},
-    {image: "/public/images/cyber.jpg", heading: "CyberSecurity", para: "Passionate about cybersecurity, I'm driven to protect digital spaces from threats."},
-    {image: "/public/images/roboti.webp", heading: "Robotices", para: "I'm passionate about building robots that transform the way we live."}
+  const tata = [{image: "/images/web-development.webp", heading: "Web-Dev", para: "Enhancing website performance with cutting-edge optimization techniques."},
+    {image: "/images/cyber.jpg", heading: "CyberSecurity", para: "Passionate about cybersecurity, I'm driven to protect digital spaces from threats."},
+    {image: "/images/roboti.webp", heading: "Robotices", para: "I'm passionate about building robots that transform the way we live."}
   ];
   return (
     <div className="flex gap-36 z-20 absolute bottom-48" ref={cardRef}>
